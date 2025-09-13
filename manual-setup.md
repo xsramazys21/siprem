@@ -163,11 +163,11 @@ Setelah database setup selesai:
 npm start
 ```
 
-<<<<<<< HEAD
+
 Kemudian buka: **http://store.xsramazys.biz.id:3001/admin**
-=======
+
 Kemudian buka: **store.xsramazys.biz.id:3001/admin**
->>>>>>> c5406597d92f866ded9988d6dd189f3b71635b17
+
 
 ## 🆘 **Troubleshooting**
 

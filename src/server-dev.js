@@ -101,17 +101,17 @@ app.use((err, req, res, next) => {
 const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => {
-<<<<<<< HEAD
-  console.log(`🔧 Development server berjalan di http://store.xsramazys.biz.id/:${PORT}`);
-  console.log(`📊 Admin Dashboard: http://store.xsramazys.biz.id/:${PORT}/admin`);
+
+  console.log(`🔧 Development server berjalan di http://store.xsramazys.biz.id:${PORT}`);
+  console.log(`📊 Admin Dashboard: http://store.xsramazys.biz.id:${PORT}/admin`);
   console.log(`⚠️  Database connection disabled - Setup required`);
-  console.log(`📋 Setup instructions: http://store.xsramazys.biz.id/:${PORT}`);
-=======
-  console.log(`🔧 Development server berjalan di http://store.xsramazys.biz.id/:${PORT}`);
-  console.log(`📊 Admin Dashboard: http://store.xsramazys.biz.id/:${PORT}/admin`);
+  console.log(`📋 Setup instructions: http://store.xsramazys.biz.id:${PORT}`);
+
+  console.log(`🔧 Development server berjalan di http://store.xsramazys.biz.id:${PORT}`);
+  console.log(`📊 Admin Dashboard: http://store.xsramazys.biz.id:${PORT}/admin`);
   console.log(`⚠️  Database connection disabled - Setup required`);
-  console.log(`📋 Setup instructions: http://store.xsramazys.biz.id/:${PORT}`);
->>>>>>> c5406597d92f866ded9988d6dd189f3b71635b17
+  console.log(`📋 Setup instructions: http://store.xsramazys.biz.id:${PORT}`);
+
 });
 
 export default app;

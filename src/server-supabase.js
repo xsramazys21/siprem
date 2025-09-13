@@ -104,11 +104,11 @@ app.use(session({
   resave: false,
   saveUninitialized: true, // Changed to true for debugging
   cookie: {
-<<<<<<< HEAD
+
     secure: false, // Always false for 34.101.189.202 testing
-=======
+
     secure: false, // Always false for localhost testing
->>>>>>> c5406597d92f866ded9988d6dd189f3b71635b17
+
     maxAge: 24 * 60 * 60 * 1000, // 24 hours
     httpOnly: true
   },
@@ -859,15 +859,15 @@ app.use((err, req, res, next) => {
 const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => {
-<<<<<<< HEAD
-  console.log(`🚀 Server berjalan di http://store.xsramazys.biz.id/:${PORT}`);
-  console.log(`📊 Admin Dashboard: http://store.xsramazys.biz.id/:${PORT}/admin`);
-  console.log(`📡 Webhook: http://store.xsramazys.biz.id/:${PORT}/payment/webhook`);
-=======
-  console.log(`🚀 Server berjalan di http://store.xsramazys.biz.id/:${PORT}`);
-  console.log(`📊 Admin Dashboard: http://store.xsramazys.biz.id/:${PORT}/admin`);
-  console.log(`📡 Webhook: http://store.xsramazys.biz.id/:${PORT}/payment/webhook`);
->>>>>>> c5406597d92f866ded9988d6dd189f3b71635b17
+
+  console.log(`🚀 Server berjalan di http://store.xsramazys.biz.id:${PORT}`);
+  console.log(`📊 Admin Dashboard: http://store.xsramazys.biz.id:${PORT}/admin`);
+  console.log(`📡 Webhook: http://store.xsramazys.biz.id:${PORT}/payment/webhook`);
+
+  console.log(`🚀 Server berjalan di http://store.xsramazys.biz.id:${PORT}`);
+  console.log(`📊 Admin Dashboard: http://store.xsramazys.biz.id:${PORT}/admin`);
+  console.log(`📡 Webhook: http://store.xsramazys.biz.id:${PORT}/payment/webhook`);
+
   console.log(`🗄️ Database: Supabase PostgreSQL`);
 });
 
