@@ -16,7 +16,7 @@ function testLogin() {
 <<<<<<< HEAD
   console.log('1. Go to: http://store.xsramazys.biz.id:3001/admin');
 =======
-  console.log('1. Go to: http://localhost:3000/admin');
+  console.log('1. Go to: store.xsramazys.biz.id:3001/admin');
 >>>>>>> c5406597d92f866ded9988d6dd189f3b71635b17
   console.log('2. You should be redirected to login page');
   console.log(`3. Enter password: ${adminPassword}`);

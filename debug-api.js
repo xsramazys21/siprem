@@ -10,7 +10,7 @@ async function quickTest() {
 <<<<<<< HEAD
     const healthResponse = await axios.get('http://store.xsramazys.biz.id:3001/health');
 =======
-    const healthResponse = await axios.get('http://localhost:3000/health');
+    const healthResponse = await axios.get('store.xsramazys.biz.id:3001/health');
 >>>>>>> c5406597d92f866ded9988d6dd189f3b71635b17
     console.log('Health check:', healthResponse.data);
     
@@ -19,7 +19,7 @@ async function quickTest() {
 <<<<<<< HEAD
     const response = await axios.patch('http://store.xsramazys.biz.id:3001/admin/api/products/1/toggle', {}, {
 =======
-    const response = await axios.patch('http://localhost:3000/admin/api/products/1/toggle', {}, {
+    const response = await axios.patch('store.xsramazys.biz.id:3001/admin/api/products/1/toggle', {}, {
 >>>>>>> c5406597d92f866ded9988d6dd189f3b71635b17
       headers: {
         'Content-Type': 'application/json'

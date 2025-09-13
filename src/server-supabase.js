@@ -860,9 +860,9 @@ const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
 <<<<<<< HEAD
-  console.log(`🚀 Server berjalan di http://34.101.189.202:${PORT}`);
-  console.log(`📊 Admin Dashboard: http://34.101.189.202:${PORT}/admin`);
-  console.log(`📡 Webhook: http://34.101.189.202:${PORT}/payment/webhook`);
+  console.log(`🚀 Server berjalan di http://store.xsramazys.biz.id/:${PORT}`);
+  console.log(`📊 Admin Dashboard: http://store.xsramazys.biz.id/:${PORT}/admin`);
+  console.log(`📡 Webhook: http://store.xsramazys.biz.id/:${PORT}/payment/webhook`);
 =======
   console.log(`🚀 Server berjalan di http://localhost:${PORT}`);
   console.log(`📊 Admin Dashboard: http://localhost:${PORT}/admin`);

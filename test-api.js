@@ -4,7 +4,7 @@ import axios from 'axios';
 <<<<<<< HEAD
 const BASE_URL = 'http://store.xsramazys.biz.id:3001';
 =======
-const BASE_URL = 'http://localhost:3000';
+const BASE_URL = 'store.xsramazys.biz.id:3001';
 >>>>>>> c5406597d92f866ded9988d6dd189f3b71635b17
 
 async function testAPIs() {

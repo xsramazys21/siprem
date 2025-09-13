@@ -102,10 +102,10 @@ const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
 <<<<<<< HEAD
-  console.log(`🔧 Development server berjalan di http://34.101.189.202:${PORT}`);
-  console.log(`📊 Admin Dashboard: http://34.101.189.202:${PORT}/admin`);
+  console.log(`🔧 Development server berjalan di http://store.xsramazys.biz.id/:${PORT}`);
+  console.log(`📊 Admin Dashboard: http://store.xsramazys.biz.id/:${PORT}/admin`);
   console.log(`⚠️  Database connection disabled - Setup required`);
-  console.log(`📋 Setup instructions: http://34.101.189.202:${PORT}`);
+  console.log(`📋 Setup instructions: http://store.xsramazys.biz.id/:${PORT}`);
 =======
   console.log(`🔧 Development server berjalan di http://localhost:${PORT}`);
   console.log(`📊 Admin Dashboard: http://localhost:${PORT}/admin`);
