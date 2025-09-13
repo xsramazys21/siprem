@@ -383,7 +383,7 @@ async function withLock(key, fn) {
   try {
     return await fn();
   } finally {
-    setTimeout(() => actionLocks.delete(key), 3000); // lepas setelah 3s
+    setTimeout(() => actionLocks.delete(key), 3001); // lepas setelah 3s
   }
 }
 
@@ -1155,7 +1155,7 @@ bot.hears('â“ Cara Order', (ctx) =>
 
 // === Start servers ===
 bot.launch().then(() => log('Telegram bot launched'));
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 app.get('/', (req, res) => {
   res.send('<h1>Moonarket jalan ðŸŽ‰</h1><p>Server OK.</p>');
 });

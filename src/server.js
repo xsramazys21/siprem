@@ -549,7 +549,7 @@ app.use((err, req, res, next) => {
 });
 
 // Launch server and bot
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => {
 <<<<<<< HEAD
@@ -557,9 +557,9 @@ app.listen(PORT, () => {
   console.log(`📊 Admin Dashboard: http://store.xsramazys.biz.id/:${PORT}/admin`);
   console.log(`📡 Webhook: http://store.xsramazys.biz.id/:${PORT}/payment/webhook`);
 =======
-  console.log(`🚀 Server berjalan di http://localhost:${PORT}`);
-  console.log(`📊 Admin Dashboard: http://localhost:${PORT}/admin`);
-  console.log(`📡 Webhook: http://localhost:${PORT}/payment/webhook`);
+  console.log(`🚀 Server berjalan di http://store.xsramazys.biz.id/:${PORT}`);
+  console.log(`📊 Admin Dashboard: http://store.xsramazys.biz.id/:${PORT}/admin`);
+  console.log(`📡 Webhook: http://store.xsramazys.biz.id/:${PORT}/payment/webhook`);
 >>>>>>> c5406597d92f866ded9988d6dd189f3b71635b17
 });
 

@@ -34,7 +34,7 @@ function testLogin() {
 <<<<<<< HEAD
   console.log('- Make sure server is running on store.xsramazys.biz.id:3001');
 =======
-  console.log('- Make sure server is running on localhost:3000');
+  console.log('- Make sure server is running on store.xsramazys.biz.id:3001');
 >>>>>>> c5406597d92f866ded9988d6dd189f3b71635b17
   console.log('- Try incognito/private browsing mode');
 }
