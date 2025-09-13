@@ -550,7 +550,7 @@ app.post('/payment/webhook', async (req, res) => {
 });
 
 // Launch bot and server
-const BOT_PORT = process.env.BOT_PORT || 3001;
+const BOT_PORT = process.env.BOT_PORT || 3000;
 
 // Start Express server for webhooks
 app.listen(BOT_PORT, () => {

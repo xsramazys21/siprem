@@ -6,11 +6,11 @@ module.exports = {
     exec_mode: 'cluster',
     env: {
       NODE_ENV: 'production',
-      PORT: 3001
+      PORT: 3000
     },
     env_production: {
       NODE_ENV: 'production',
-      PORT: 3001
+      PORT: 3000
     },
     // Logging
     error_file: './logs/err.log',
@@ -33,7 +33,7 @@ module.exports = {
     
     // Advanced PM2 features
     kill_timeout: 5000,
-    listen_timeout: 3001,
+    listen_timeout: 3000,
     
     // Environment-specific settings
     node_args: '--max-old-space-size=400'

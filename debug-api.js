@@ -8,18 +8,18 @@ async function quickTest() {
     
     // Test health endpoint
 
-    const healthResponse = await axios.get('http://store.xsramazys.biz.id:3001/health');
+    const healthResponse = await axios.get('http://store.xsramazys.biz.id:3000/health');
 
-    const healthResponse = await axios.get('store.xsramazys.biz.id:3001/health');
+    const healthResponse = await axios.get('store.xsramazys.biz.id:3000/health');
 
     console.log('Health check:', healthResponse.data);
     
     // Test API with a simple GET (if exists)
     console.log('\nTesting admin API...');
 
-    const response = await axios.patch('http://store.xsramazys.biz.id:3001/admin/api/products/1/toggle', {}, {
+    const response = await axios.patch('http://store.xsramazys.biz.id:3000/admin/api/products/1/toggle', {}, {
 
-    const response = await axios.patch('store.xsramazys.biz.id:3001/admin/api/products/1/toggle', {}, {
+    const response = await axios.patch('store.xsramazys.biz.id:3000/admin/api/products/1/toggle', {}, {
 
       headers: {
         'Content-Type': 'application/json'

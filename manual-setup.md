@@ -164,9 +164,9 @@ npm start
 ```
 
 
-Kemudian buka: **http://store.xsramazys.biz.id:3001/admin**
+Kemudian buka: **http://store.xsramazys.biz.id:3000/admin**
 
-Kemudian buka: **store.xsramazys.biz.id:3001/admin**
+Kemudian buka: **store.xsramazys.biz.id:3000/admin**
 
 
 ## 🆘 **Troubleshooting**

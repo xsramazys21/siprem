@@ -14,9 +14,9 @@ function testLogin() {
   
   console.log('💡 Login Instructions:');
 
-  console.log('1. Go to: http://store.xsramazys.biz.id:3001/admin');
+  console.log('1. Go to: http://store.xsramazys.biz.id:3000/admin');
 
-  console.log('1. Go to: store.xsramazys.biz.id:3001/admin');
+  console.log('1. Go to: store.xsramazys.biz.id:3000/admin');
 
   console.log('2. You should be redirected to login page');
   console.log(`3. Enter password: ${adminPassword}`);
@@ -32,9 +32,9 @@ function testLogin() {
   console.log('- Clear browser cookies/cache');
   console.log('- Check if session secret is set correctly');
 
-  console.log('- Make sure server is running on store.xsramazys.biz.id:3001');
+  console.log('- Make sure server is running on store.xsramazys.biz.id:3000');
 
-  console.log('- Make sure server is running on store.xsramazys.biz.id:3001');
+  console.log('- Make sure server is running on store.xsramazys.biz.id:3000');
 
   console.log('- Try incognito/private browsing mode');
 }

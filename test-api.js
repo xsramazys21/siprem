@@ -2,9 +2,9 @@ import 'dotenv/config';
 import axios from 'axios';
 
 
-const BASE_URL = 'http://store.xsramazys.biz.id:3001';
+const BASE_URL = 'http://store.xsramazys.biz.id:3000';
 
-const BASE_URL = 'store.xsramazys.biz.id:3001';
+const BASE_URL = 'store.xsramazys.biz.id:3000';
 
 
 async function testAPIs() {

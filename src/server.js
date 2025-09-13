@@ -549,7 +549,7 @@ app.use((err, req, res, next) => {
 });
 
 // Launch server and bot
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
 
